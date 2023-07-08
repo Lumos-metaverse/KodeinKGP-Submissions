@@ -1,0 +1,13 @@
+body{
+    background-color: cornsilk;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#deadbutton{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    border-color: cornsilk;
+}
+
