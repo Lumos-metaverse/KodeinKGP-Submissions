@@ -7,4 +7,5 @@ This repository is to handle all the assignments form the students at IIT KGP
 3) Add code to your folder
 4) Open a Pull Request and submit your assignments
 5) open a pull request and submit your assignments.
+6) 
 
