@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .container{
+            display: flex;
+            height: 80vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1{
+            font-size: 100px;
+            font-family: sans-serif;
+        }
+        fieldset{
+            height: 30vh;
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .option1{
+            height: 100px;
+        }
+        legend{
+            text-align: center;
+            font-size: xx-large;
+            font-family:serif;
+        }
+        .list{
+            font-size: x-large;
+            list-style: none;
+        }
+        label{
+            font-size: x-large;
+        }
+        label:hover{
+            color: chartreuse;
+        }
+        a:hover{
+            background-color: aqua;
+        }
+        .container:hover{
+            background-color:rgb(214, 225, 154);
+        }
+        body:hover{
+            background-color: coral;
+        }
+        h1:hover{
+            color: crimson;
+        }
+        fieldset:hover{
+            background-color: rgb(215, 201, 215);
+        }
+        button{
+            background-color: rgba(0, 0, 0, 0.449);
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Hello there</h1>
+    <div class="checkbox">
+    <fieldset>
+        <legend> Select you favourite sport :</legend>
+    <div class="option1">
+        <input type="checkbox">
+        <button for="football"> Football</button>
+    </div>
+    <div class="option2">
+        <input type="checkbox">
+        <button for="soccer"> Cricket</button>
+    </div>
+    </fieldset>
+    </div>
+    <br>
+
+    <ul class="list">
+        <li><a href="mailto:senapatirana415@gmail.com"> Send you feedback </a></li>
+        <br>
+        <li><a href="#" target="_blank" rel="noopener noreferrer">About Football</a></li>
+        <br>
+        <li><a href="#" target="_blank" rel="noopener noreferrer">About Soccer </a></li>
+    </ul>
+</div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
