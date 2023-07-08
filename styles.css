@@ -1,0 +1,11 @@
+body{
+    color:rebeccapurple;
+    background-color: beige;
+    text-align: center;
+}
+
+#demoButton{
+    color: darkred;
+    background-color: aquamarine;
+    border-color: blueviolet;   
+}
