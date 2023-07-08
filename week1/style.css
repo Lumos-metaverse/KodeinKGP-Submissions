@@ -1,0 +1,52 @@
+body
+{
+    background-color: rgb(254, 249, 239);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading
+{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px 5%;
+    margin: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(1, 105, 249);
+}
+
+.parent1
+{
+    margin: 5px 10px;
+}
+
+.child1
+{
+    min-width: 40%;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+
+#demobutton {
+    display: inline-block;
+    align-self: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.2s ease-in-out;
+}
+
+#demobutton:hover {
+    transform: scale(1.1);
+    background-color: rgb(1, 105, 249);
+}
+
+
+
+
