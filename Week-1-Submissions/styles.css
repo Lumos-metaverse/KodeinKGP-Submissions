@@ -1,0 +1,12 @@
+*{
+    margin:0px;
+    padding 0px;
+    background-color:white;
+}
+.f{
+    text-align:center;
+}
+.button{
+    background-color:rgb(14, 179, 234);
+    padding:12px;
+}
