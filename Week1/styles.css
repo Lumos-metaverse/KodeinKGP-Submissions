@@ -1,0 +1,19 @@
+body{
+    background-color: cornsilk;
+    text-align: center;
+}
+#demo_button{
+    background-color: #006aff;
+    border: 2px solid #000000;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 2px 1px 1px black;
+    border-radius: 5px;
+}
+#demo_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
