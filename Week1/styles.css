@@ -2,3 +2,8 @@ body{
     background-color: cornsilk;
     text-align: center;
 }
+#clickbutton{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
