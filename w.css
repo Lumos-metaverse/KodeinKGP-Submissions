@@ -1,0 +1,21 @@
+#first{
+color: rgb(16, 19, 19);
+border: 3px solid rgb(139, 158, 139);
+background-color: rgb(101, 142, 179);
+border-width: 25px;
+border: height 2.5em;
+padding: 10px;
+margin: 50px;
+
+}
+#botton{
+
+color: rgb(229, 234, 236);
+background-color: #2a08a7;
+
+}
+
+body{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
