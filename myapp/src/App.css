@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #170253;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Title{
+  color:darksalmon;
+  text-decoration:underline;
+  font-style: italic;
+  font-size: 55px;
+}
+
+.Quote{
+  color:yellowgreen;
+  font-size: 25px;
+  font-style: oblique;
+  border:lightseagreen 5px solid;
+  border-radius: 25px;
+  background-color: black;
+  padding: 1.2rem;
+}
+
+.Author{
+  color:mediumvioletred;
+  font-size: 25px;
+  font-style: oblique;
+  border:goldenrod 5px solid;
+  border-radius: 25px;
+  background-color:black;
+  padding: 1.2rem;
+}
+
+.Tag{
+  color:tomato;
+  font-size: 25px;
+  font-style: oblique;
+  border:darkslategray 5px solid;
+  border-radius: 25px;
+  background-color:black;
+  padding: 1rem;
+}
+
+.GetQuote{
+  color:white;
+  font-size: 20px;
+  font-style: normal;
+  border:black 5px solid;
+  border-radius: 25px;
+  background-color:black;
+  padding: 0.5rem;
+}
