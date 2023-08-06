@@ -1,0 +1,12 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+p {
+    color:brown;
+}
+#demobutton {
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
